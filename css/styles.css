@@ -1,0 +1,86 @@
+@import url(//db.onlinewebfonts.com/c/466deba3855c345af3e1371e28d783ae?family=ARS+Maquette+Web+One);
+
+@font-face {
+  font-family: "ARS Maquette";
+  src: url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot");
+  src: url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff") format("woff"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.svg#ARS Maquette Web One") format("svg");
+} 
+
+* {
+  box-sizing: border-box;
+  font-family: "ARS Maquette", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: gray;
+  font-size: 10px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background-color: black;
+  color: gray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.fun-nav ul {
+  display: inline;
+}
+
+.fun-nav ul li {
+  display: inline;
+}
+
+.fun-nav {
+  background: black;
+  height: 40px;
+}
