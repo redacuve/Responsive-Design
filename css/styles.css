@@ -22,6 +22,12 @@
   padding: 0;
 }
 
+.mainlogo {
+  background: linear-gradient(to bottom right,#c09,#f42 85%);
+  display: none;
+  padding: 20px 20px;
+}
+
 .f-shentox {
   font-family: "Shentox", sans-serif;
 }
@@ -83,6 +89,11 @@
     color: orangered;
     padding-left: 10px;
   }
+
+  .mainlogo {
+    display: contents;
+    height: 81px;
+  }
 }
 
 @media (min-width: 760px){
@@ -92,6 +103,13 @@
 
   .menu-icon {
     display: none;
+  }
+}
+
+@media (max-width: 1024px){
+  .mainlogo {
+    display: inline-block;
+    height: 81px;
   }
 }
 
