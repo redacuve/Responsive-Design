@@ -38,27 +38,91 @@
   justify-content: space-between;
 }
 
+.pad-20p {
+  padding: 20px;
+}
+
+.pad-10p {
+  padding: 10px;
+}
+
+.pad-5p {
+  padding: 5px;
+}
+
+.pad-30p {
+  padding: 30px;
+}
+
+.pad-lr-30p {
+  padding: 0 30px;
+}
+
+.pad-lr-20p {
+  padding: 0 20px;
+}
+
+.pad-lr-10p {
+  padding: 0 10px;
+}
+
+@media (max-width: 760px){
+  .first-nav {
+    display: none;
+  }
+
+  .second-nav ul {
+    display: none;
+  }
+
+  .second-nav {
+    justify-content: flex-end;
+  }
+
+  .menu-icon {
+    color: orangered;
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 760px){
+  .second-nav {
+    justify-content: space-between;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}
+
 ul {
   list-style-type: none;
   overflow: hidden;
 }
 
 
-.secondnav ul li a:hover {
+.second-nav ul li a:hover {
   color: black;
 }
 
-.fun-nav div ul li a {
-  color: white;
-  text-decoration: none;
+.second-nav ul li a {
+  display: inline-block;
+  padding: 15px 10px;
+  font-weight: 600;
 }
 
-.secondnav {
+.fun-nav div ul li a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+
+.second-nav {
   align-items: center;
   box-shadow: 0px 0px 10px #ddd;
-  clear: both;
   color: gray;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 3px 20px;
 }
 
@@ -67,16 +131,22 @@ li.dropdown {
 }
 
 .dropdown-content {
+
   display: none;
+  background: #333;
   position: absolute;
   z-index: 1;
+  font-size: 0.9rem;
 }
 
 .dropdown-content a {
   color: black;
   display: block;
+  padding: 5px 30px 5px 5px;
+  border-bottom: 1px solid #444;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
