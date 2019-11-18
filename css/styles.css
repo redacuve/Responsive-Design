@@ -1,9 +1,17 @@
 @import url(//db.onlinewebfonts.com/c/466deba3855c345af3e1371e28d783ae?family=ARS+Maquette+Web+One);
 
+@import url(//db.onlinewebfonts.com/c/5c773d1586db24bd45dfd4af3a4542e7?family=Shentox);
+
 @font-face {
   font-family: "ARS Maquette";
   src: url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot");
   src: url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff") format("woff"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.svg#ARS Maquette Web One") format("svg");
+}
+
+@font-face {
+  font-family: "Shentox";
+  src: url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.eot");
+  src: url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.woff") format("woff"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.svg#Shentox") format("svg");
 } 
 
 * {
@@ -30,14 +38,17 @@ ul {
 li a, .dropbtn {
   display: inline-block;
   color: gray;
-  font-size: 10px;
-  text-align: center;
+  font-size: 0.8rem;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.floatleft li a:hover, .dropdown:hover .dropbtn {
   color: white;
+}
+
+.secondnav ul li a:hover {
+  color: black;
 }
 
 li.dropdown {
@@ -47,7 +58,6 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -55,9 +65,7 @@ li.dropdown {
 
 .dropdown-content a {
   background-color: black;
-  color: gray;
   padding: 12px 16px;
-  text-decoration: none;
   display: block;
   text-align: left;
 }
@@ -68,11 +76,6 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-a {
-  color: gray;
-  text-decoration: none;
 }
 
 .fun-nav ul {
@@ -86,4 +89,14 @@ a {
 .fun-nav {
   background: black;
   height: 40px;
+}
+
+.secondnav {
+  clear: both;
+  color: gray;
+  display: flex;
+}
+
+.secondnav ul li a {
+  font-family: "Shentox", 'Times New Roman', Times, serif;
 }
