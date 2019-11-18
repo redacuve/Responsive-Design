@@ -1,18 +1,19 @@
 @import url(//db.onlinewebfonts.com/c/466deba3855c345af3e1371e28d783ae?family=ARS+Maquette+Web+One);
 
-@import url(//db.onlinewebfonts.com/c/5c773d1586db24bd45dfd4af3a4542e7?family=Shentox);
-
 @font-face {
   font-family: "ARS Maquette";
   src: url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot");
   src: url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff") format("woff"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.svg#ARS Maquette Web One") format("svg");
 }
 
-@font-face {
-  font-family: "Shentox";
-  src: url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.eot");
-  src: url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.woff") format("woff"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.svg#Shentox") format("svg");
-} 
+@font-face {font-family: "Shentox";
+  src: url("../resources/5c773d1586db24bd45dfd4af3a4542e7.eot"); /* IE9*/
+  src: url("../resources/5c773d1586db24bd45dfd4af3a4542e7.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../resources/5c773d1586db24bd45dfd4af3a4542e7.woff2") format("woff2"), /* chrome、firefox */
+  url("../resources/5c773d1586db24bd45dfd4af3a4542e7.woff") format("woff"), /* chrome、firefox */
+  url("../resources/5c773d1586db24bd45dfd4af3a4542e7.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../resources/5c773d1586db24bd45dfd4af3a4542e7.svg#Shentox W04 Regular") format("svg"); /* iOS 4.1- */
+}
 
 * {
   box-sizing: border-box;
@@ -21,13 +22,25 @@
   padding: 0;
 }
 
+.f-shentox {
+  font-family: "Shentox", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.bg-black {
+  background: #000;
+}
+
 ul {
   list-style-type: none;
   overflow: hidden;
 }
 
 .floatleft li {
-  float: left;
+  display: inline-block;
 }
 
 .floatright {
@@ -87,16 +100,15 @@ li.dropdown {
 }
 
 .fun-nav {
-  background: black;
-  height: 40px;
+
 }
 
 .secondnav {
+  align-items: center;
+  box-shadow: 0px 0px 10px #ddd;
   clear: both;
   color: gray;
-  display: flex;
+  justify-content: space-between;
+  padding: 3px 20px;
 }
 
-.secondnav ul li a {
-  font-family: "Shentox", 'Times New Roman', Times, serif;
-}
