@@ -183,4 +183,37 @@ li.dropdown {
   display: block;
 }
 
+.frontpage {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: auto;
+  width: 100%;
+}
 
+.fp1 {
+  background-image: url("../resources/ethereum-blockchain-airline-796x417.jpg");
+  /* background-color: red; */
+  background-repeat: no-repeat;
+  height: 500px;
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.fp2 {
+  background-image: url("../resources/paymytab-database-hed-796x448.png");
+  /* background-color: green; */
+  height: auto;
+
+  /* background-repeat: no-repeat; */
+  width: 33.3333333%;
+}
+
+.fp3 {
+  /* background-image: url("../resources/tiger-796x417.jpg"); */
+  background-color: blue;
+
+  height: auto;
+
+  /* background-repeat: no-repeat; */
+  width: 33.3333333%;
+}
