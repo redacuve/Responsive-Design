@@ -199,6 +199,7 @@ li.dropdown {
 
 .fp1 {
  grid-area: fp1;
+ position: relative;
 }
 
 .fp1i {
@@ -210,14 +211,14 @@ li.dropdown {
 
 .fp1c {
   background: transparent url("../resources/cover-gradient.png") no-repeat;
-  background-position: 0 80px;
+  background-position: 0 0;
   background-size: cover;
-  bottom: 4px;
-  left: 4px;
+  bottom: 0;
+  left: 0;
   mix-blend-mode: lighten;
   position: absolute;
-  top: 4px;
-  right: 4px;
+  top: 0;
+  right: 0;
   z-index: 4;
 }
 
@@ -313,4 +314,20 @@ li.dropdown {
   font-size: 12px;
   position: relative;
   top: 210px;
+}
+
+.cover-date {
+  color: white;
+  padding: 10px 20px 0;
+  position: relative;
+  display: inline-block;
+}
+
+.cover-logo {
+  background: transparent url("../resources/tnw.svg") no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 100px;
+  display: inline-block;
+  margin: 10px 0 0 10px;
 }
