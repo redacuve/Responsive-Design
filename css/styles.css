@@ -257,7 +257,6 @@ li.dropdown {
 .bg-one {
   background-image: url(../resources/moonday-morning-478x270.png);
   height: 200px;
-  width: auto;
 }
 
 .bg-two {
@@ -301,10 +300,17 @@ li.dropdown {
 .span1 {
   position: relative;
   top: 200px;
+  font-weight: 600;
 }
 
-
-
 .margindown {
-  margin-bottom: 200px;
+  margin-bottom: 150px;
+}
+
+.littlespan1 {
+  color: gray;
+  display: block;
+  font-size: 12px;
+  position: relative;
+  top: 210px;
 }
