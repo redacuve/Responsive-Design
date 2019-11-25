@@ -334,7 +334,8 @@ li.dropdown {
 
 .more-bg-1 {
   background: url("../resources/android-phone-hed-368x276.jpg");
-  height: 200px;
+  height: 276px;
+  width: 368px;
   background-repeat: no-repeat;
 }
 
@@ -365,4 +366,12 @@ li.dropdown {
 
 .bg-mistyrose {
   background-color: mistyrose;
+}
+
+.floatright {
+  float: right;
+}
+
+.displayflex {
+  display: flex;
 }
