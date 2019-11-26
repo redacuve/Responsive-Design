@@ -1,9 +1,12 @@
-@import url(//db.onlinewebfonts.com/c/466deba3855c345af3e1371e28d783ae?family=ARS+Maquette+Web+One);
 
 @font-face {
   font-family: "ARS Maquette";
-  src: url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot");
-  src: url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff") format("woff"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.svg#ARS Maquette Web One") format("svg");
+  src: url("../resources/466deba3855c345af3e1371e28d783ae.eot"); /* IE9*/
+  src: url("../resources/466deba3855c345af3e1371e28d783ae.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../resources/466deba3855c345af3e1371e28d783ae.woff2") format("woff2"), /* chrome、firefox */
+  url("../resources/466deba3855c345af3e1371e28d783ae.woff") format("woff"), /* chrome、firefox */
+  url("../resources/466deba3855c345af3e1371e28d783ae.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../resources/466deba3855c345af3e1371e28d783ae.svg#ARS Maquette Web One") format("svg"); /* iOS 4.1- */
 }
 
 @font-face {font-family: "Shentox";
@@ -184,13 +187,13 @@ li.dropdown {
 }
 
 .frontpage {
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 66% 34%;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "fp1 fp2"
                       "fp1 fp3";
   height: 400px;
-  width: 100%;
-  grid-gap: 10px 10px;
+  width: calc(100% - 10px);
+  grid-gap: 10px 10px ;
 }
 
 .displaygrid {
@@ -207,6 +210,7 @@ li.dropdown {
   background-repeat: no-repeat;
   height: 100%;
   background-size: 100%;
+  padding: 10px;
 }
 
 .fp1c {
@@ -224,6 +228,8 @@ li.dropdown {
 
 .fp2 {
   grid-area: fp2;
+  position: relative;
+
 }
 
 .fp2i {
@@ -231,16 +237,21 @@ li.dropdown {
   background-repeat: no-repeat;
   height: 100%;
   background-size: 100%;
+  padding: 10px;
 }
 
 .fp3 {
   grid-area:  2 / 2 / span 1 / span 1;
+  position: relative;
+  
 }
+
 .fp3i {
   background-image: url("../resources/tiger-796x417.jpg");
   background-repeat: no-repeat;
   height: 100%;
   background-size: 100%;
+  padding: 10px;
 }
 
 .thegap {
@@ -319,13 +330,12 @@ li.dropdown {
 .cover-date {
   color: white;
   padding: 10px 20px 0;
-  position: relative;
+  float: right;
   display: inline-block;
 }
 
 .cover-logo {
   background: transparent url("../resources/tnw.svg") no-repeat;
-  background-size: contain;
   width: 50%;
   height: 100px;
   display: inline-block;
@@ -374,4 +384,43 @@ li.dropdown {
 
 .displayflex {
   display: flex;
+}
+
+.main-article-title {
+  font-size: 3rem;
+  /* position: absolute; */
+  /* bottom: 40px; */
+}
+
+.article-title {
+  font-size: 1.6rem;
+  /* position: absolute;
+  bottom: 40px; */
+}
+
+.article-footer {
+  font-size: .65rem;
+  /* position: absolute;
+  bottom: 10px; */
+}
+
+.fc-white {
+  color: white;
+}
+
+.cover-trigger {
+  background: rgba(0, 0, 0, .25) url("../resources/image-gradient.png") no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
 }
