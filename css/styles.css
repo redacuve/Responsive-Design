@@ -269,6 +269,7 @@ li.dropdown {
 .bg-one {
   background-image: url(../resources/moonday-morning-478x270.png);
   height: 200px;
+  background-repeat: no-repeat;
 }
 
 .bg-two {
@@ -423,4 +424,35 @@ li.dropdown {
   width: 100%;
   position: absolute;
   bottom: 10px;
+}
+
+.kindaorange {
+  color: #f42;
+}
+
+.rightborder {
+  border-right: 1px solid #f42;
+  padding-right: 6px;
+}
+
+.bg-kindaorange {
+  background-image: #f42;
+  opacity: 0.5;
+}
+
+.funrounds {
+  background: #f42;
+  color: white;
+  height: 39.3333px;
+  width: 270px;
+  text-align: center;
+  font-size: 18px;
+  padding: 10.6667px 16px 10.6667px 4px;
+}
+
+.funrounds2 {
+  background: rgba(255, 68, 34, 0.08);
+  height: 57.3333px;
+  text-align: center;
+  width: 270px;
 }
