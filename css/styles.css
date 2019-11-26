@@ -452,7 +452,42 @@ li.dropdown {
 
 .funrounds2 {
   background: rgba(255, 68, 34, 0.08);
+  color: black; 
   height: 57.3333px;
   text-align: center;
+  padding: 10.6667px 16px 10.6667px 4px;
   width: 270px;
+}
+
+.funrounds3 {
+  border-bottom: 1px solid mistyrose;
+  color: black;
+  font-size: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 270px;
+}
+
+.funrounds4 {
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 20px;
+  width: 270px;
+}
+
+.funimage {
+  height: 60px;
+  position: relative;
+  top: -150px;
+  left: 20px;
+  width: 60px;
+}
+
+.displayil {
+  display: inline;
+}
+
+.fwrap {
+  flex-wrap: wrap;
 }
