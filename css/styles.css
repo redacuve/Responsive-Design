@@ -48,6 +48,10 @@
   justify-content: space-between;
 }
 
+.spacearound {
+  justify-content: space-around;
+}
+
 .pad-20p {
   padding: 20px;
 }
@@ -262,52 +266,51 @@ li.dropdown {
   text-decoration: none;
 }
 
-.latestnews {
+/* .latestnews {
   grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+} */
+
+.img-one {
+  height: 200px;
+  width: 24%;
 }
 
-.bg-one {
-  background-image: url(../resources/moonday-morning-478x270.png);
+.img-two {
   height: 200px;
-  background-repeat: no-repeat;
-}
-
-.bg-two {
-  background-image: url(../resources/bitcoin_today-header_bitcoin_today-512x270.jpg);
-  height: 200px;
-}
-
-
-.bg-three {
-  background-image: url(../resources/Bluecar.png);
-  height: 200px;
+  width: 24%;
 }
 
 
-.bg-four {
-  background-image: url(../resources/robot.png);
+.img-three {
   height: 200px;
+  width: 24%;
 }
 
 
-.bg-five {
-  background-image: url(../resources/whale.jpg);
+.img-four {
   height: 200px;
+  width: 24%;
 }
 
-.bg-six {
-  background-image: url(../resources/Black-Friday-TNW-Door-Buster-540x270.jpg);
+
+.img-five {
   height: 200px;
+  width: 24%;
 }
 
-.bg-seven {
-  background-image: url(../resources/sale_24282_primary_image_wide-540x270.jpg);
+.img-six {
   height: 200px;
+  width: 24%;
 }
 
-.bg-eight {
-  background-image: url(../resources/cheap-paperwhite-header-image-kindle-516x270.png);
+.img-seven {
   height: 200px;
+  width: 24%;
+}
+
+.img-eight {
+  height: 200px;
+  width: 24%;
 }
 
 .span1 {
@@ -433,6 +436,7 @@ li.dropdown {
 .rightborder {
   border-right: 1px solid #f42;
   padding-right: 6px;
+  margin-right: 6px;
 }
 
 .bg-kindaorange {
@@ -490,4 +494,8 @@ li.dropdown {
 
 .fwrap {
   flex-wrap: wrap;
+}
+
+.horiz-margin {
+  margin: 0 20px;
 }
