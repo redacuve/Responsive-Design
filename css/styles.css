@@ -116,6 +116,7 @@
                         "fp3";
     height: 600px;
     width: 100%;
+    margin-bottom: 50px;
   }
 
 }
@@ -137,6 +138,7 @@
     height: 400px;
     width: calc(100% - 10px);
     grid-gap: 10px 10px ;
+    margin-bottom: 50px;;
   } 
 
   .main-article-title {
@@ -337,65 +339,28 @@ li.dropdown {
   grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
 } */
 
-.img-one {
-  height: 200px;
-  width: 24%;
+.lastest-news {
+  width: 300px;
+  padding: 10px;
 }
 
-.img-two {
-  height: 200px;
-  width: 24%;
-}
-
-
-.img-three {
-  height: 200px;
-  width: 24%;
-}
-
-
-.img-four {
-  height: 200px;
-  width: 24%;
-}
-
-
-.img-five {
-  height: 200px;
-  width: 24%;
-}
-
-.img-six {
-  height: 200px;
-  width: 24%;
-}
-
-.img-seven {
-  height: 200px;
-  width: 24%;
-}
-
-.img-eight {
-  height: 200px;
-  width: 24%;
+.lastest-news img {
+  width: 100%;
 }
 
 .span1 {
-  position: relative;
-  top: 200px;
   font-weight: 600;
 }
 
 .margindown {
-  margin-bottom: 150px;
+  max-width: 1200px;
+  margin: 0 auto 50px auto;
 }
 
 .littlespan1 {
   color: gray;
   display: block;
   font-size: 12px;
-  position: relative;
-  top: 210px;
 }
 
 .cover-date {
@@ -404,16 +369,26 @@ li.dropdown {
 }
 
 
+.section-articles {
+  width: 400px;
+  padding: 10px;
+}
 
-.more-bg-1 {
-  background: url("../resources/android-phone-hed-368x276.jpg");
-  height: 276px;
-  width: 368px;
-  background-repeat: no-repeat;
+.img-section-art {
+  width: 100%;
 }
 
 .bullets {
-  list-style: disc inside;
+  font-size: 10pt;
+}
+
+.bullets li {
+  padding: 10px;
+}
+
+.bullets li a {
+  text-decoration: none;
+  color: #333;
 }
 
 .nobullets {
@@ -430,7 +405,7 @@ li.dropdown {
   font-weight: bold;
   display: inline-block; 
   width: 1em;
-  margin-left: -1em;
+  margin-left: -.3em;
 }
 
 .borderdown {
@@ -542,5 +517,6 @@ li.dropdown {
 }
 
 .horiz-margin {
-  margin: 0 20px;
+  margin: 0 auto 20px auto;
+  max-width: 1200px;
 }
