@@ -129,9 +129,17 @@
     width: 80px;
   }
 
+  .alilwider {
+    width: 80%;
+  }
+
+  .lastest-news {
+    margin-right: 70px;
+  }
+
   .fun-div {
     width: 100%;
-   
+  
   }
 
   .funrounds,
