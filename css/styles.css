@@ -1,26 +1,19 @@
 
 @font-face {
   font-family: "ARS Maquette";
-  src: url("../resources/466deba3855c345af3e1371e28d783ae.eot"); /* IE9*/
-  src: url("../resources/466deba3855c345af3e1371e28d783ae.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../resources/466deba3855c345af3e1371e28d783ae.woff2") format("woff2"), /* chrome、firefox */
-  url("../resources/466deba3855c345af3e1371e28d783ae.woff") format("woff"), /* chrome、firefox */
-  url("../resources/466deba3855c345af3e1371e28d783ae.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../resources/466deba3855c345af3e1371e28d783ae.svg#ARS Maquette Web One") format("svg"); /* iOS 4.1- */
+  src: url("../resources/466deba3855c345af3e1371e28d783ae.eot");
+  src: url("../resources/466deba3855c345af3e1371e28d783ae.eot?#iefix") format("embedded-opentype"), url("../resources/466deba3855c345af3e1371e28d783ae.woff2") format("woff2"), url("../resources/466deba3855c345af3e1371e28d783ae.woff") format("woff"), url("../resources/466deba3855c345af3e1371e28d783ae.ttf") format("truetype"), url("../resources/466deba3855c345af3e1371e28d783ae.svg#ARS Maquette Web One") format("svg");
 }
 
 @font-face {font-family: "Shentox";
-  src: url("../resources/5c773d1586db24bd45dfd4af3a4542e7.eot"); /* IE9*/
-  src: url("../resources/5c773d1586db24bd45dfd4af3a4542e7.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../resources/5c773d1586db24bd45dfd4af3a4542e7.woff2") format("woff2"), /* chrome、firefox */
-  url("../resources/5c773d1586db24bd45dfd4af3a4542e7.woff") format("woff"), /* chrome、firefox */
-  url("../resources/5c773d1586db24bd45dfd4af3a4542e7.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../resources/5c773d1586db24bd45dfd4af3a4542e7.svg#Shentox W04 Regular") format("svg"); /* iOS 4.1- */
+  src: url("../resources/5c773d1586db24bd45dfd4af3a4542e7.eot");
+  src: url("../resources/5c773d1586db24bd45dfd4af3a4542e7.eot?#iefix") format("embedded-opentype"), url("../resources/5c773d1586db24bd45dfd4af3a4542e7.woff2") format("woff2"), url("../resources/5c773d1586db24bd45dfd4af3a4542e7.woff") format("woff"), url("../resources/5c773d1586db24bd45dfd4af3a4542e7.ttf") format("truetype"), url("../resources/5c773d1586db24bd45dfd4af3a4542e7.svg#Shentox W04 Regular") format("svg");
 }
 
 * {
   box-sizing: border-box;
   font-family: "ARS Maquette", Helvetica, sans-serif;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -28,8 +21,7 @@
 .mainlogo {
   background: linear-gradient(to bottom right,#c09,#f42 85%);
   display: none;
-  padding: 0 20px;
- 
+  padding: 0 20px; 
 }
 
 .f-shentox {
@@ -52,28 +44,12 @@
   justify-content: space-around;
 }
 
-.pad-20p {
-  padding: 20px;
-}
-
 .pad-10p {
   padding: 10px;
 }
 
 .pad-5p {
   padding: 5px;
-}
-
-.pad-30p {
-  padding: 30px;
-}
-
-.pad-lr-30p {
-  padding: 0 30px;
-}
-
-.pad-lr-20p {
-  padding: 0 20px;
 }
 
 .pad-lr-10p {
@@ -100,8 +76,8 @@
 
   .mainlogo {
     display: inline-block;
-    padding: 6px 10px;
     float: left;
+    padding: 6px 10px;
   }
 
   .cover-logo {
@@ -109,14 +85,12 @@
   }
 
   .frontpage {
+    grid-template-areas: "fp1" "fp2" "fp3";
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "fp1"
-                        "fp2"
-                        "fp3";
     height: 600px;
-    width: 100%;
     margin-bottom: 50px;
+    width: 100%;
   }
 
   .centerit {
@@ -146,9 +120,9 @@
   .funrounds2,
   .funrounds3,
   .funrounds4 {
-    text-align: left;
     padding-left: 100px;
     padding-top: 10px;
+    text-align: left;
   }
 
   .section-articles {
@@ -171,14 +145,13 @@
   }  
 
   .frontpage {
+    grid-gap: 10px 10px ;
+    grid-template-areas: "fp1 fp2" "fp1 fp3";
     grid-template-columns: 66% 34%;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "fp1 fp2"
-                        "fp1 fp3";
     height: 400px;
+    margin-bottom: 50px;
     width: calc(100% - 10px);
-    grid-gap: 10px 10px ;
-    margin-bottom: 50px;;
   } 
 
   .main-article-title {
@@ -241,35 +214,31 @@
 
   .article-title {
     font-size: 1.6rem;
-    /* position: absolute;
-    bottom: 40px; */
   }
   
   .article-footer {
     font-size: .65rem;
-    /* position: absolute;
-    bottom: 10px; */
   }
 
   .fp1c {
-    background: transparent url("../resources/cover-gradient.png") no-repeat;
     background-position: 0 0;
     background-size: cover;
+    background: transparent url("../resources/cover-gradient.png") no-repeat;
     bottom: 0;
     left: 0;
     mix-blend-mode: lighten;
     position: absolute;
-    top: 0;
     right: 0;
+    top: 0;
     z-index: 4;
   }
 
   .cover-logo {
     background: transparent url("../resources/tnw.svg") no-repeat;
-    width: 50%;
-    height: 100px;
     display: inline-block;
+    height: 100px;
     position: relative;
+    width: 50%;
   }
 
   .spacebetweenlarge {
@@ -281,28 +250,20 @@
   }
 }
 
-
-
-ul {
-  /* list-style-type: none; */
-  overflow: hidden;
-}
-
-
 .second-nav ul li a:hover {
   color: black;
 }
 
 .second-nav ul li a {
   display: inline-block;
-  padding: 15px 5px;
   font-weight: 600;
+  padding: 15px 5px;
 }
 
 .first-nav ul li a {
   color: #aaa;
-  text-decoration: none;
   font-size: 0.68rem;
+  text-decoration: none;
 }
 
 .first-nav ul li { 
@@ -311,16 +272,14 @@ ul {
 
 .second-nav ul li a {
   color: #aaa;
-  text-decoration: none;
   font-size: 0.8rem;
+  text-decoration: none;
 }
-
 
 .second-nav {
   align-items: center;
   box-shadow: 0px 0px 10px #ddd;
   color: gray;
-  /* justify-content: space-between; */
   padding: 3px 20px;
 }
 
@@ -329,65 +288,51 @@ li.dropdown {
 }
 
 .dropdown-content {
-
-  display: none;
   background: #333;
+  display: none;
+  font-size: 0.9rem;
   position: absolute;
   z-index: 1;
-  font-size: 0.9rem;
 }
 
 .dropdown-content a {
+  border-bottom: 1px solid #444;
   color: black;
   display: block;
   padding: 5px 30px 5px 5px;
-  border-bottom: 1px solid #444;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* .frontpage {
-  grid-template-columns: 66% 34%;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "fp1 fp2"
-                      "fp1 fp3";
-  height: 400px;
-  width: calc(100% - 10px);
-  grid-gap: 10px 10px ;
-} */
-
 .displaygrid {
   display: grid;
 }
 
 .fp1 {
- grid-area: fp1;
- position: relative;
+  grid-area: fp1;
+  position: relative;
 }
 
 .fp1i {
   background-image: url("../resources/ethereum-blockchain-airline-796x417.jpg");
   background-repeat: no-repeat;
-  height: 100%;
   background-size: 100% 100%;
+  height: 100%;
   padding: 10px;
 }
-
-
 
 .fp2 {
   grid-area: fp2;
   position: relative;
-
 }
 
 .fp2i {
   background-image: url("../resources/paymytab-database-hed-796x448.png");
   background-repeat: no-repeat;
-  height: 100%;
   background-size: 100%;
+  height: 100%;
   padding: 10px;
 }
 
@@ -399,8 +344,8 @@ li.dropdown {
 .fp3i {
   background-image: url("../resources/tiger-796x417.jpg");
   background-repeat: no-repeat;
-  height: 100%;
   background-size: 100%;
+  height: 100%;
   padding: 10px;
 }
 
@@ -413,8 +358,8 @@ li.dropdown {
 }
 
 .lastest-news {
-  width: 300px;
   padding: 10px;
+  width: 300px;
 }
 
 .span1 {
@@ -422,8 +367,8 @@ li.dropdown {
 }
 
 .margindown {
-  max-width: 1200px;
   margin: 0 auto 50px auto;
+  max-width: 1200px;
 }
 
 .littlespan1 {
@@ -437,7 +382,6 @@ li.dropdown {
   float: right;
   position: relative;
 }
-
 
 .section-articles {
   padding: 10px;
@@ -456,8 +400,8 @@ li.dropdown {
 }
 
 .bullets li a {
-  text-decoration: none;
   color: #333;
+  text-decoration: none;
 }
 
 .nobullets {
@@ -469,12 +413,12 @@ li.dropdown {
 }
 
 .bullets li::before {
-  content: "\2022";
   color: red;
-  font-weight: bold;
+  content: "\2022";
   display: inline-block; 
-  width: 1em;
+  font-weight: bold;
   margin-left: -.3em;
+  width: 1em;
 }
 
 .borderdown {
@@ -493,29 +437,24 @@ li.dropdown {
   display: flex;
 }
 
-
-
-
-
 .fc-white {
   color: white;
 }
 
 .cover-trigger {
-  background: rgba(0, 0, 0, .25) url("../resources/image-gradient.png") no-repeat;
   background-size: 100% 100%;
-  display: block;
+  background: rgba(0, 0, 0, .25) url("../resources/image-gradient.png") no-repeat;
   bottom: 0;
+  display: block;
   left: 0;
+  position: absolute;
   right: 0;
   top: 0;
-  position: absolute;
 }
 
 .bottom {
-
-  position: absolute;
   bottom: 10px;
+  position: absolute;
 }
 
 .kindaorange {
@@ -524,8 +463,8 @@ li.dropdown {
 
 .rightborder {
   border-right: 1px solid #f42;
-  padding-right: 6px;
   margin-right: 6px;
+  padding-right: 6px;
 }
 
 .bg-kindaorange {
@@ -536,30 +475,27 @@ li.dropdown {
 .funrounds {
   background: #f42;
   color: white;
+  font-size: 18px;  
   height: 39.3333px;
   width: 100%;
-
-  font-size: 18px;
-  
 }
 
 .funrounds2 {
   background: rgba(255, 68, 34, 0.08);
   color: black; 
-  height: 57.3333px;
-  
+  height: 57.3333px;  
   width: 100%;
 }
 
 .funrounds3 {
   border-bottom: 1px solid mistyrose;
   color: black;
-  font-family: Helvetica, sans-serif;
   color: gray;
+  font-family: Helvetica, sans-serif;
+  font-size: .9rem;
   font-weight: 100;
   padding-bottom: 10px;
   width: 100%;
-  font-size: .9rem;
 }
 
 .funrounds4 {
@@ -571,9 +507,9 @@ li.dropdown {
 
 .funimage {
   height: 60px;
+  left: 20px;
   position: relative;
   top: -180px;
-  left: 20px;
   width: 60px;
 }
 
@@ -591,6 +527,10 @@ li.dropdown {
 }
 
 .article-container{
-  max-width: 1200px;
   margin: 0 auto 50px;  
+  max-width: 1200px;
+}
+
+.pos-rel {
+  position: relative;
 }
