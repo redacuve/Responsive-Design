@@ -128,6 +128,20 @@
     height: 80px;
     width: 80px;
   }
+
+  .fun-div {
+    width: 100%;
+   
+  }
+
+  .funrounds,
+  .funrounds2,
+  .funrounds3,
+  .funrounds4 {
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 10px;
+  }
 }
 
  @media (min-width: 760px){
@@ -157,9 +171,23 @@
 
   .main-article-title {
     font-size: 3rem;
-    /* position: absolute; */
-    /* bottom: 40px; */
   }
+
+  .funrounds,
+  .funrounds2,
+  .funrounds3,
+  .funrounds4 {
+    text-align: center;
+  }
+
+  .funrounds {
+    padding: 10.6667px 16px 10.6667px 4px;
+  }
+
+  .funrounds2 {
+    padding: 10.6667px 16px 10.6667px 4px;
+  }
+
 } 
 
 @media (max-width: 1024px) and (min-width: 760px){
@@ -490,42 +518,42 @@ li.dropdown {
   background: #f42;
   color: white;
   height: 39.3333px;
-  width: 270px;
-  text-align: center;
+  width: 100%;
+
   font-size: 18px;
-  padding: 10.6667px 16px 10.6667px 4px;
+  
 }
 
 .funrounds2 {
   background: rgba(255, 68, 34, 0.08);
   color: black; 
   height: 57.3333px;
-  text-align: center;
-  padding: 10.6667px 16px 10.6667px 4px;
-  width: 270px;
+  
+  width: 100%;
 }
 
 .funrounds3 {
   border-bottom: 1px solid mistyrose;
   color: black;
-  font-size: 10px;
+  font-family: Helvetica, sans-serif;
+  color: gray;
+  font-weight: 100;
   padding-bottom: 10px;
-  text-align: center;
-  width: 270px;
+  width: 100%;
+  font-size: .9rem;
 }
 
 .funrounds4 {
   color: black;
   font-size: 10px;
-  text-align: center;
   padding-top: 20px;
-  width: 270px;
+  width: 100%;
 }
 
 .funimage {
   height: 60px;
   position: relative;
-  top: -150px;
+  top: -180px;
   left: 20px;
   width: 60px;
 }
