@@ -99,21 +99,17 @@
 
   .img-mobile-left {
     float: left;
-    height: 80px;
-    width: 80px;
-  }
-
-  .alilwider {
-    width: 80%;
+    height: 100px;
+    margin-bottom: 20px;
+    width: 100px;
   }
 
   .lastest-news {
-    margin-right: 70px;
+    width: 100%;
   }
 
   .fun-div {
     width: 100%;
-  
   }
 
   .funrounds,
@@ -131,6 +127,11 @@
 }
 
  @media (min-width: 760px){
+
+  .lastest-news {
+    padding: 10px;
+    width: 300px;
+  }  
 
   .lastest-news img {
     width: 100%;
@@ -176,11 +177,7 @@
 } 
 
 @media (max-width: 1024px) and (min-width: 760px){
-  
-  .lastest-news img {
-    width: 100%;
-  }
-  
+
   .mainlogo {
     display: inline-block;
     float: left;
@@ -207,10 +204,6 @@
 }
 
 @media (min-width: 1024px){
-
-  .lastest-news img {
-    width: 100%;
-  }
 
   .article-title {
     font-size: 1.6rem;
@@ -355,11 +348,6 @@ li.dropdown {
 
 .nodeco {
   text-decoration: none;
-}
-
-.lastest-news {
-  padding: 10px;
-  width: 300px;
 }
 
 .span1 {
