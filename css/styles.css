@@ -142,6 +142,10 @@
     padding-left: 100px;
     padding-top: 10px;
   }
+
+  .section-articles {
+    width: 100%;
+  }
 }
 
  @media (min-width: 760px){
@@ -214,6 +218,10 @@
   .article-footer {
     font-size: .65rem;
   }
+  
+  .section-articles {
+    width: 50%;
+  }
 
 }
 
@@ -258,6 +266,10 @@
 
   .spacebetweenlarge {
     justify-content: space-between;
+  }
+
+  .section-articles {
+    width: 33%;
   }
 }
 
@@ -420,7 +432,6 @@ li.dropdown {
 
 
 .section-articles {
-  width: 400px;
   padding: 10px;
 }
 
@@ -569,4 +580,9 @@ li.dropdown {
 .horiz-margin {
   margin: 0 auto 20px auto;
   max-width: 1200px;
+}
+
+.article-container{
+  max-width: 1200px;
+  margin: 0 auto 50px;  
 }
