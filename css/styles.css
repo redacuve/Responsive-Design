@@ -20,7 +20,7 @@
 }
 
 .mainlogo {
-  background: linear-gradient(to bottom right, #c09, #f42, 85%);
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
   display: none;
   padding: 0 20px;
 }
