@@ -5,7 +5,8 @@
   src: url("../resources/466deba3855c345af3e1371e28d783ae.eot?#iefix") format("embedded-opentype"), url("../resources/466deba3855c345af3e1371e28d783ae.woff2") format("woff2"), url("../resources/466deba3855c345af3e1371e28d783ae.woff") format("woff"), url("../resources/466deba3855c345af3e1371e28d783ae.ttf") format("truetype"), url("../resources/466deba3855c345af3e1371e28d783ae.svg#ARS Maquette Web One") format("svg");
 }
 
-@font-face {font-family: "Shentox";
+@font-face {
+  font-family: "Shentox";
   src: url("../resources/5c773d1586db24bd45dfd4af3a4542e7.eot");
   src: url("../resources/5c773d1586db24bd45dfd4af3a4542e7.eot?#iefix") format("embedded-opentype"), url("../resources/5c773d1586db24bd45dfd4af3a4542e7.woff2") format("woff2"), url("../resources/5c773d1586db24bd45dfd4af3a4542e7.woff") format("woff"), url("../resources/5c773d1586db24bd45dfd4af3a4542e7.ttf") format("truetype"), url("../resources/5c773d1586db24bd45dfd4af3a4542e7.svg#Shentox W04 Regular") format("svg");
 }
@@ -19,7 +20,7 @@
 }
 
 .mainlogo {
-  background: linear-gradient(to bottom right,#c09,#f42 85%);
+  background: linear-gradient(to bottom right,#c09,#f42 ,85%);
   display: none;
   padding: 0 20px;
 }
@@ -56,7 +57,7 @@
   padding: 0 10px;
 }
 
-@media (max-width: 760px){
+  @media (max-width: 760px) {
   .first-nav {
     display: none;
   }
@@ -148,7 +149,7 @@
   }
 }
 
- @media (min-width: 760px) {
+  @media (min-width: 760px) {
   .lastest-news {
     padding: 10px;
     width: 300px;
@@ -167,7 +168,7 @@
   }
 
   .frontpage {
-    grid-gap: 10px 10px ;
+    grid-gap: 10px 10px;
     grid-template-areas: "fp1 fp2" "fp1 fp3";
     grid-template-columns: 66% 34%;
     grid-template-rows: 1fr 1fr;
@@ -210,7 +211,7 @@
   }
 }
 
-@media (max-width: 1024px) and (min-width: 760px){
+  @media (max-width: 1024px) and (min-width: 760px) {
 
   .mainlogo {
     display: inline-block;
@@ -235,7 +236,7 @@
   }
 }
 
-@media (min-width: 1024px){
+  @media (min-width: 1024px) {
 
   .article-title {
     font-size: 1.6rem;
@@ -291,7 +292,7 @@
   text-decoration: none;
 }
 
-.first-nav ul li { 
+.first-nav ul li {
   padding-left: 9px;
 }
 
@@ -303,7 +304,7 @@
 
 .second-nav {
   align-items: center;
-  box-shadow: 0px 0px 10px #ddd;
+  box-shadow: 0 0 10px #ddd;
   color: gray;
   padding: 3px 20px;
 }
