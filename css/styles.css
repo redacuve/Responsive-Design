@@ -530,6 +530,7 @@ li.dropdown {
   background: #131313;
   color: #555;
   text-align: center;
+
 }
 
 .footer-part2 {
@@ -554,8 +555,10 @@ li.dropdown {
   color: #f42;
 }
 
-.fc-555 {
-  color: #555;
+.footer-words {
+  color: #aaa;
+  font-size: 14px;
+  margin: 0 5px;
 }
 
 .svg-icon {
@@ -574,9 +577,8 @@ li.dropdown {
   stroke-width: 1;
 }
 
-.footer-part1 ul li {
-  float: left;
-  display: inline-block;
+.centerit2 {
+  justify-content: center;
 }
 
 .latestdeals-container {
@@ -634,4 +636,20 @@ li.dropdown {
 
 .deals-container img {
   width: 100%;
+}
+
+.littlecircle {
+  background-color: #555;
+  border: 1px solid #555;
+  border-radius: 100%;
+  margin: 10px 5px;
+  padding: 12px;
+}
+
+.littlecircle:hover {
+  background-color: black;
+}
+
+.footer-words:hover {
+  color: white;
 }
