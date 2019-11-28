@@ -124,6 +124,8 @@
   .section-articles {
     width: 100%;
   }
+  
+
 }
 
  @media (min-width: 760px){
@@ -173,6 +175,7 @@
   .funrounds2 {
     padding: 10.6667px 16px 10.6667px 4px;
   }
+
 
 } 
 
@@ -574,4 +577,61 @@ li.dropdown {
 .footer-part1 ul li {
   float: left;
   display: inline-block;
+}
+
+.latestdeals-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.latestdeal {
+  position: relative;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.price {
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.discount {
+  background-image: url("../resources/deals-ribbon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-weight: 600;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30%;
+}
+
+.discount div {
+  padding-top: 20px;
+  text-align: end;
+  transform: rotate(45deg);
+}
+
+.latest-deals {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.latest-deals h2 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+.deals-container {
+  position: relative;
+  width: 100%;
+}
+
+.deals-container img {
+  width: 100%;
 }
