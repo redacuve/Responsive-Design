@@ -595,19 +595,14 @@ li.dropdown {
 }
 
 .svg-icon {
-  width: 1em;
-  height: 1em;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
   fill: white;
-}
-
-.svg-icon circle {
-  stroke: #4691f6;
-  stroke-width: 1;
 }
 
 .centerit2 {
@@ -664,8 +659,10 @@ li.dropdown {
   background-color: #555;
   border: 1px solid #555;
   border-radius: 100%;
+  height: 3em;
   margin: 10px 5px;
   padding: 12px;
+  width: 3em;
 }
 
 .littlecircle:hover {
