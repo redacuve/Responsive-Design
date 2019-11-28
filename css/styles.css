@@ -21,7 +21,7 @@
 .mainlogo {
   background: linear-gradient(to bottom right,#c09,#f42 85%);
   display: none;
-  padding: 0 20px; 
+  padding: 0 20px;
 }
 
 .f-shentox {
@@ -164,7 +164,7 @@
 
   .menu-icon {
     display: none;
-  }  
+  }
 
   .frontpage {
     grid-gap: 10px 10px ;
@@ -174,7 +174,7 @@
     height: 400px;
     margin-bottom: 50px;
     width: calc(100% - 10px);
-  } 
+  }
 
   .main-article-title {
     font-size: 3rem;
@@ -208,7 +208,7 @@
     padding-top: 10px;
     font-size: .8rem;
   }
-} 
+}
 
 @media (max-width: 1024px) and (min-width: 760px){
 
@@ -435,7 +435,7 @@ li.dropdown {
 .bullets li::before {
   color: red;
   content: "\2022";
-  display: inline-block; 
+  display: inline-block;
   font-weight: bold;
   margin-left: -.3em;
   width: 1em;
@@ -495,15 +495,15 @@ li.dropdown {
 .funrounds {
   background: #f42;
   color: white;
-  font-size: 18px;  
+  font-size: 18px;
   height: 39.3333px;
   width: 100%;
 }
 
 .funrounds2 {
   background: rgba(255, 68, 34, 0.08);
-  color: black; 
-  height: 57.3333px;  
+  color: black;
+  height: 57.3333px;
   width: 100%;
 }
 
@@ -546,8 +546,8 @@ li.dropdown {
   max-width: 1200px;
 }
 
-.article-container{
-  margin: 0 auto 50px;  
+.article-container {
+  margin: 0 auto 50px;
   max-width: 1200px;
 }
 
@@ -668,8 +668,6 @@ li.dropdown {
   color: white;
 }
 
-
-  
 .deals-container img {
   width: 100%;
 }
