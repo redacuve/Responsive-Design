@@ -57,7 +57,7 @@
   padding: 0 10px;
 }
 
-  @media (max-width: 760px) {
+@media (max-width: 760px) {
   .first-nav {
     display: none;
   }
@@ -125,7 +125,7 @@
   .section-articles {
     width: 100%;
   }
-  
+
   .latestdeal {
     width: 100%;
   }
@@ -141,7 +141,7 @@
   }
 
   .discount {
-    font-size: .4rem;
+    font-size: 0.4rem;
   }
 
   .discount div {
@@ -149,7 +149,7 @@
   }
 }
 
-  @media (min-width: 760px) {
+@media (min-width: 760px) {
   .lastest-news {
     padding: 10px;
     width: 300px;
@@ -207,12 +207,11 @@
 
   .discount div {
     padding-top: 10px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
-  @media (max-width: 1024px) and (min-width: 760px) {
-
+@media (max-width: 1024px) and (min-width: 760px) {
   .mainlogo {
     display: inline-block;
     float: left;
@@ -222,28 +221,27 @@
   .cover-logo {
     display: none;
   }
-   
+
   .article-title {
     font-size: 1.2rem;
   }
-  
+
   .article-footer {
-    font-size: .65rem;
+    font-size: 0.65rem;
   }
-  
+
   .section-articles {
     width: 50%;
   }
 }
 
-  @media (min-width: 1024px) {
-
+@media (min-width: 1024px) {
   .article-title {
     font-size: 1.6rem;
   }
-  
+
   .article-footer {
-    font-size: .65rem;
+    font-size: 0.65rem;
   }
 
   .fp1c {
@@ -276,10 +274,6 @@
   }
 }
 
-.second-nav ul li a:hover {
-  color: black;
-}
-
 .second-nav ul li a {
   display: inline-block;
   font-weight: 600;
@@ -307,6 +301,10 @@
   box-shadow: 0 0 10px #ddd;
   color: gray;
   padding: 3px 20px;
+}
+
+.second-nav ul li a:hover {
+  color: black;
 }
 
 li.dropdown {
@@ -438,7 +436,7 @@ li.dropdown {
   content: "\2022";
   display: inline-block;
   font-weight: bold;
-  margin-left: -.3em;
+  margin-left: -0.3em;
   width: 1em;
 }
 
@@ -463,7 +461,7 @@ li.dropdown {
 }
 
 .cover-trigger {
-  background: rgba(0, 0, 0, .25) url("../resources/image-gradient.png") no-repeat;
+  background: rgba(0, 0, 0, 0.25) url("../resources/image-gradient.png") no-repeat;
   background-size: 100% 100%;
   bottom: 0;
   display: block;
@@ -513,7 +511,7 @@ li.dropdown {
   color: black;
   color: gray;
   font-family: Helvetica, sans-serif;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 100;
   padding-bottom: 10px;
   width: 100%;
