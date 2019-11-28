@@ -522,3 +522,56 @@ li.dropdown {
 .pos-rel {
   position: relative;
 }
+
+.footer-part1 {
+  background: #131313;
+  color: #555;
+  text-align: center;
+}
+
+.footer-part2 {
+  background: black;
+  color: #555;
+  font-size: 13px;
+  padding: 39px 0;
+  text-align: center;
+}
+
+.footer-logo1 {
+  height: 9px;
+}
+
+.footer-logo2 {
+  clear: both;
+  display: inline-block;
+  height: 9px;
+}
+
+.footer-part2 span b {
+  color: #f42;
+}
+
+.fc-555 {
+  color: #555;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.footer-part1 ul li {
+  float: left;
+  display: inline-block;
+}
