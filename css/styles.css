@@ -20,7 +20,7 @@
 }
 
 .mainlogo {
-  background: linear-gradient(to bottom right,#c09,#f42 ,85%);
+  background: linear-gradient(to bottom right, #c09, #f42 , 85%);
   display: none;
   padding: 0 20px;
 }
@@ -274,10 +274,24 @@
   }
 }
 
+.bullets li {
+  padding: 10px;
+}
+
+.dropdown-content a {
+  border-bottom: 1px solid #444;
+  color: black;
+  display: block;
+  padding: 5px 30px 5px 5px;
+}
+
 .second-nav ul li a {
+  color: #aaa;
   display: inline-block;
+  font-size: 0.8rem;
   font-weight: 600;
   padding: 15px 5px;
+  text-decoration: none;
 }
 
 .first-nav ul li a {
@@ -288,12 +302,6 @@
 
 .first-nav ul li {
   padding-left: 9px;
-}
-
-.second-nav ul li a {
-  color: #aaa;
-  font-size: 0.8rem;
-  text-decoration: none;
 }
 
 .second-nav {
@@ -317,13 +325,6 @@ li.dropdown {
   font-size: 0.9rem;
   position: absolute;
   z-index: 1;
-}
-
-.dropdown-content a {
-  border-bottom: 1px solid #444;
-  color: black;
-  display: block;
-  padding: 5px 30px 5px 5px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -412,10 +413,6 @@ li.dropdown {
 
 .bullets {
   font-size: 10pt;
-}
-
-.bullets li {
-  padding: 10px;
 }
 
 .bullets li a {
