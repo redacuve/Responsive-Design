@@ -146,15 +146,13 @@
   .discount div {
     padding-top: 5px;
   }
-
 }
 
- @media (min-width: 760px){
-
+ @media (min-width: 760px) {
   .lastest-news {
     padding: 10px;
     width: 300px;
-  }  
+  }
 
   .lastest-news img {
     width: 100%;
@@ -226,7 +224,6 @@
    
   .article-title {
     font-size: 1.2rem;
-
   }
   
   .article-footer {
@@ -236,7 +233,6 @@
   .section-articles {
     width: 50%;
   }
-
 }
 
 @media (min-width: 1024px){
@@ -563,7 +559,6 @@ li.dropdown {
   background: #131313;
   color: #555;
   text-align: center;
-
 }
 
 .footer-part2 {
