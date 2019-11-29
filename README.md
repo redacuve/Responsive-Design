@@ -16,7 +16,8 @@
 
 ## About The Project
 
-This is Microverse Project #6.
+This is Microverse Project #6. In this project we imitate the layout of the News page called The Next Web https://thenextweb.com/ .
+In this project we use fonts from the site https://www.onlinewebfonts.com/ and also we use icon from material icons and http://svgicons.sparkk.fr/. for the structure of the webpage we decided to use Flexbox, Grids, Floats for better learning purposes, also we tried to use more semantic HTML tags. 
 
 
 ### Built With
